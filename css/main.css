@@ -130,7 +130,14 @@ button {
 }
 .footer__container {
   display: flex;
+  flex-direction: column;
+  gap: 20px;
   align-items: center;
+}
+@media screen and (min-width: 500px) {
+  .footer__container {
+    flex-direction: row;
+  }
 }
 .footer__logo {
   color: white;
@@ -258,9 +265,14 @@ button {
 .reviews__item {
   background-color: white;
   padding: 15px;
-  width: 400px;
+  width: 290px;
   border: 2px solid rgb(20, 102, 20);
   border-radius: 5%;
+}
+@media screen and (min-width: 768px) {
+  .reviews__item {
+    width: 400px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .reviews__item:first-child {

@@ -23,9 +23,12 @@
     &__item{
         background-color: white;
         padding: 15px;
-        width: 400px;
+        width: 290px;
         border: 2px solid rgb(20, 102, 20);
         border-radius: 5%;
+        @media screen and (min-width: 768px) {
+            width: 400px; 
+        }
     }
     @media screen and (min-width: 1200px) {
         &__item:first-child{

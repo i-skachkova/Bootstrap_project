@@ -4,7 +4,13 @@
     padding-bottom: 60px;
     &__container{
         display: flex;
+        flex-direction: column;
+        gap: 20px;
         align-items: center;
+        @media screen and (min-width: 500px) {
+            flex-direction: row;
+        }
+        
     }
     &__logo{
         color: white;
