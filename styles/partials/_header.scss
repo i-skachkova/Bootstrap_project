@@ -1,0 +1,22 @@
+.header{
+    &__logo{
+        color: rgb(5, 80, 5);
+        font-size: 30px;
+    }
+    &__list{
+        display: flex;
+        gap: 20px;
+        font-size: 20px;
+        margin-right: 10px;
+        margin-left: auto;
+    }
+    &__bg{
+        background-color: transparent;
+    }
+    &__page{
+        color: black;
+    }
+    &__page:hover, &__page:active{
+        color: rgb(5, 80, 5);
+    }
+}
