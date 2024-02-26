@@ -30,6 +30,14 @@
             width: 400px; 
         }
     }
+    @media screen and (min-width: 768px) {
+        &__item:first-child{
+            margin-right: 200px;
+        }
+        &__item:last-child{
+            margin-left: 200px;
+        }  
+    }
     @media screen and (min-width: 1200px) {
         &__item:first-child{
             margin-right: 500px;
